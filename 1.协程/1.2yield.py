@@ -12,3 +12,4 @@ def func2():
 f1 = func1() # Creating an iterator object
 for item  in f1:
     print(item) # Output: 1 3 4 2
+

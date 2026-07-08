@@ -1,7 +1,7 @@
-"""普通方式 """
+"""普通方式下载 """
 import requests
 
-def download_image(url):
+def download_url(url):
     print(f"Downloading {url}")
     response = requests.get(url)
     print(f"Finished downloading {url}")
@@ -16,4 +16,4 @@ if __name__ == "__main__":
         "https://example.net",
     ]
     for url in urls:
-        download_image(url)
+        download_url(url)
